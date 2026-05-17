@@ -17,7 +17,6 @@
  *
  * Credenciais de demonstração para teste:
  *   joao@email.com / 123456
- *   maria@email.com / 123456
  */
 import React, { useState } from 'react';
 import {
