@@ -1,34 +1,4 @@
 /**
- * AppNavigator.js — Configuração completa de navegação do aplicativo.
- *
- * Optei por usar dois tipos de navigator combinados:
- *
- *  1. Bottom Tab Navigator — as três abas principais na barra inferior
- *     (Dashboard, Hoje, Configurações)
- *
- *  2. Stack Navigator — dentro de cada aba, para navegar em profundidade
- *     (ex: Hoje → Detalhe do hábito → Editar hábito)
- *
- * Por que essa combinação?
- * O Tab Navigator sozinho não permite navegar para telas secundárias como
- * "Detalhe do hábito" sem perder as abas. Ao colocar um Stack dentro de
- * cada aba, consigo ter navegação em pilha preservando a barra de abas.
- *
- * Estrutura de navegação:
- *
- *  NavigationContainer
- *  └── AuthStack (quando não logado)
- *      ├── Login
- *      └── Register
- *  └── MainTabNavigator (quando logado)
- *      ├── DashboardStack
- *      │   └── DashboardMain
- *      ├── HomeStack
- *      │   ├── Home
- *      │   ├── AddHabit
- *      │   └── HabitDetail
- *      └── SettingsStack
- *          └── SettingsMain
  *
  * O AppNavigator decide automaticamente qual fluxo mostrar baseado no
  * estado do usuário (user !== null → logado).
