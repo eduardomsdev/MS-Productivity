@@ -229,6 +229,10 @@ Formulário para criar um hábito com:
 
 ## 👨‍💻 Desenvolvido por
 
-Eduardo Martins Da Silva
+| Nome | Matrícula |
+|---|---|
+| Eduardo Martins Da Silva | 01799746 |
+| Thiago Victor Dias Macêdo | 01798289 |
+
 Disciplina: Desenvolvimento de Aplicativos Mobile
 Ano: 2026
