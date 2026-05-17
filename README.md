@@ -153,6 +153,10 @@ Tela inicial com campos de email e senha. Possui toggle para mostrar/esconder a 
 
 ### 2. Cadastro
 
+<p align="center">
+  <img src="screenshots/cadastro.webp" alt="Tela de Cadastro" width="280" />
+</p>
+
 Permite criar uma nova conta com nome, email e senha. Inclui validação de todos os campos e confirmação de senha.
 
 ### 3. Dashboard
@@ -195,6 +199,10 @@ Formulário para criar um hábito com:
 - Botão nativo `Button` para limpar os campos
 
 ### 6. Detalhes do Hábito
+
+<p align="center">
+  <img src="screenshots/detalhes.webp" alt="Tela de detalhes do hábito" width="280" />
+</p>
 
 - Cabeçalho colorido com streak, taxa de conclusão e recorde
 - Calendário dos últimos 21 dias (3 semanas)
