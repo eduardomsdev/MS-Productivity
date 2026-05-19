@@ -159,12 +159,6 @@ export default function LoginScreen({ navigation }) {
             )}
           </TouchableOpacity>
 
-          {/* Dica com as credenciais de demonstração para facilitar o teste */}
-          <View style={styles.demoHint}>
-            <Ionicons name="information-circle-outline" size={14} color={colors.primary} />
-            <Text style={styles.demoHintText}>  Demo: joao@email.com / 123456</Text>
-          </View>
-
           {/* Divisor visual entre login e cadastro */}
           <View style={styles.divider}>
             <View style={styles.dividerLine} />
@@ -293,19 +287,6 @@ const createStyles = (colors) =>
       fontSize: 16,
       fontWeight: 'bold',
       letterSpacing: 0.5,
-    },
-    demoHint: {
-      flexDirection: 'row',
-      alignItems: 'center',
-      backgroundColor: colors.primaryLight,
-      borderRadius: 10,
-      padding: 10,
-      marginTop: 14,
-    },
-    demoHintText: {
-      color: colors.primary,
-      fontSize: 12,
-      fontWeight: '600',
     },
     divider: {
       flexDirection: 'row', // linha + texto + linha (Flexbox)
